@@ -11,13 +11,13 @@ import Nimble
 import Nimble_Snapshots
 import UIKit
 
-class First: QuickSpec {
+class TestButton_Tests: QuickSpec {
     override func spec() {
         
         describe("Test Button") {
             it("has a valid snapshot") {
                 let button = TestButton(frame: CGRect(origin: .zero, size: CGSize(width: 200, height: 100)))
-                expect(button).to( recordSnapshot() )
+                expect(button).to( haveValidSnapshot() )
             }
         }
         
