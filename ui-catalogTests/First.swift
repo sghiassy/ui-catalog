@@ -16,7 +16,7 @@ class MySpec: QuickSpec {
         describe("hello world") {
             it("has a valid snapshot") {
                 let view = ViewController().view // some view you want to test
-                expect(view).to( recordSnapshot() )
+                expect(view).to( haveValidSnapshot() )
             }
         }
     }
