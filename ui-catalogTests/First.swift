@@ -13,10 +13,10 @@ import UIKit
 
 class MySpec: QuickSpec {
     override func spec() {
-        describe("in some context") {
-            it("has valid snapshot") {
+        describe("hello world") {
+            it("has a valid snapshot") {
                 let view = ViewController().view // some view you want to test
-                expect(view).to( haveValidSnapshot() )
+                expect(view).to( recordSnapshot() )
             }
         }
     }
