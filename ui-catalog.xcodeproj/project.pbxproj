@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		163020EC11A0E002FF322F71 /* Pods_ui_catalogTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A8EF526F99667F44371EFF8 /* Pods_ui_catalogTests.framework */; };
 		36B08FF11AF127234616215D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95666432D224ED22B2342A42 /* AVFoundation.framework */; };
 		426CB5AE87CAF2E4C392FB41 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1393F7416B3B5DCB64C283E4 /* CoreTelephony.framework */; };
 		4D76B0F067E894F5CBDB0B1E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B194CA5789F83E2BEA02F432 /* SystemConfiguration.framework */; };
+		4F1C91346EA5DD8828E64DF7 /* Pods_ui_catalogUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15D2B6369F27960500D5E3BF /* Pods_ui_catalogUITests.framework */; };
 		65BEECCF2844A8106083AF60 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AFB1ABC3D33AE069D456EA1 /* CoreVideo.framework */; };
 		AA53ABFE1F787496001D59E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA53ABFD1F787496001D59E8 /* AppDelegate.swift */; };
 		AA53AC001F787496001D59E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA53ABFF1F787496001D59E8 /* ViewController.swift */; };
@@ -49,10 +51,12 @@
 		053B5B02A9DB021D1104CF84 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		1047F110E8F7A646EB521FF4 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		1393F7416B3B5DCB64C283E4 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		15D2B6369F27960500D5E3BF /* Pods_ui_catalogUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ui_catalogUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		377A4579086FA30A929E9297 /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
 		4AD0F20C626AF8D9612C86DF /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		4E019F302B484C9B878E6AD4 /* Pods-ui-catalogTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ui-catalogTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ui-catalogTests/Pods-ui-catalogTests.debug.xcconfig"; sourceTree = "<group>"; };
 		57068CC3EBF40C9EFDE4FB71 /* Pods-ui-catalogTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ui-catalogTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ui-catalogTests/Pods-ui-catalogTests.release.xcconfig"; sourceTree = "<group>"; };
+		5A8EF526F99667F44371EFF8 /* Pods_ui_catalogTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ui_catalogTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8800F85B9ACFBC527BD9CDBD /* Pods-ui-catalogUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ui-catalogUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ui-catalogUITests/Pods-ui-catalogUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		887ACE27C6603AFA23372582 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		8AFB1ABC3D33AE069D456EA1 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
@@ -96,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				163020EC11A0E002FF322F71 /* Pods_ui_catalogTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F1C91346EA5DD8828E64DF7 /* Pods_ui_catalogUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +193,8 @@
 				95666432D224ED22B2342A42 /* AVFoundation.framework */,
 				4AD0F20C626AF8D9612C86DF /* CoreMedia.framework */,
 				8AFB1ABC3D33AE069D456EA1 /* CoreVideo.framework */,
+				5A8EF526F99667F44371EFF8 /* Pods_ui_catalogTests.framework */,
+				15D2B6369F27960500D5E3BF /* Pods_ui_catalogUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
