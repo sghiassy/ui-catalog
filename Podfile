@@ -11,11 +11,12 @@ target 'ui-catalog' do
     inherit! :search_paths	
     pod 'Specta','~> 1.0'
     pod 'Expecta', '~> 1.0'
+	pod 'Expecta+Snapshots', '~> 1.0'
   end
 
   target 'ui-catalogUITests' do
     inherit! :search_paths
-    pod 'Expecta+Snapshots', '~> 1.0'
+    
   end
 
 end
