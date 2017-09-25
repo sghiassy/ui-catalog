@@ -14,6 +14,10 @@ import UIKit
 class TestButton_Tests: QuickSpec {
     override func spec() {
         
+        beforeSuite {
+            setNimbleTolerance(0.01)
+        }
+        
         describe("Test Button") {
             it("has a valid snapshot") {
                 let button = TestButton(frame: CGRect(origin: .zero, size: CGSize(width: 200, height: 100)))
