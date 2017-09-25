@@ -21,6 +21,7 @@
 		AA53AC081F787496001D59E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA53AC061F787496001D59E8 /* LaunchScreen.storyboard */; };
 		AA53AC131F787497001D59E8 /* ui_catalogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA53AC121F787497001D59E8 /* ui_catalogTests.swift */; };
 		AA53AC1E1F787497001D59E8 /* ui_catalogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA53AC1D1F787497001D59E8 /* ui_catalogUITests.swift */; };
+		AA9C16CF1F78C6D300BCEC01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA53ABFF1F787496001D59E8 /* ViewController.swift */; };
 		AAF8263D1F78B905004722F0 /* First.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF8263C1F78B905004722F0 /* First.swift */; };
 		B3ED4C79452A9D7BD0F1FA23 /* Pods_ui_catalogTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFA0C166F9EE3532CC09C4EE /* Pods_ui_catalogTests.framework */; };
 		B43A24B9107DA238BA9940F6 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 053B5B02A9DB021D1104CF84 /* CoreText.framework */; };
@@ -482,6 +483,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA9C16CF1F78C6D300BCEC01 /* ViewController.swift in Sources */,
 				AAF8263D1F78B905004722F0 /* First.swift in Sources */,
 				AA53AC131F787497001D59E8 /* ui_catalogTests.swift in Sources */,
 			);
@@ -653,7 +655,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ghiassy.ui-catalog";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -674,7 +676,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ghiassy.ui-catalog";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -691,7 +693,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ghiassy.ui-catalogTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ui-catalog.app/ui-catalog";
 			};
@@ -709,7 +711,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ghiassy.ui-catalogTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ui-catalog.app/ui-catalog";
 			};
@@ -726,7 +728,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ghiassy.ui-catalogUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "ui-catalog";
 			};
@@ -743,7 +745,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ghiassy.ui-catalogUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "ui-catalog";
 			};

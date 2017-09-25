@@ -15,7 +15,7 @@ class MySpec: QuickSpec {
     override func spec() {
         describe("in some context") {
             it("has valid snapshot") {
-                let view = ViewController // some view you want to test
+                let view = ViewController().view // some view you want to test
                 expect(view).to( haveValidSnapshot() )
             }
         }
