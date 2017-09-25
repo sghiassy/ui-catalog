@@ -11,13 +11,15 @@ import Nimble
 import Nimble_Snapshots
 import UIKit
 
-class MySpec: QuickSpec {
+class First: QuickSpec {
     override func spec() {
-        describe("hello world") {
+        
+        describe("Test Button") {
             it("has a valid snapshot") {
-                let view = ViewController().view // some view you want to test
-                expect(view).to( haveValidSnapshot() )
+                let button = TestButton(frame: CGRect(origin: .zero, size: CGSize(width: 200, height: 100)))
+                expect(button).to( recordSnapshot() )
             }
         }
+        
     }
 }

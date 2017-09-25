@@ -29,8 +29,7 @@ class ui_catalogUITests: XCTestCase {
     }
     
     func testExample() {
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        XCTAssert(XCUIApplication().staticTexts["Hello World"].exists)
     }
     
 }
