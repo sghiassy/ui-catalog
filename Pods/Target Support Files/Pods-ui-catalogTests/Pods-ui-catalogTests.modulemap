@@ -1,0 +1,6 @@
+framework module Pods_ui_catalogTests {
+  umbrella header "Pods-ui-catalogTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

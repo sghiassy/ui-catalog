@@ -1,15 +1,17 @@
 # Podfile
+
 platform :ios, '10.0'
 use_frameworks!
 
-target "ui-catalog" do
-  # Normal libraries
-
-  abstract_target 'Tests' do
-    target "ui-catalogTests"
-    target "ui-catalogUITests"
-
+def testing_pods
     pod 'Quick'
     pod 'Nimble-Snapshots'
-  end
+end
+
+target 'ui-catalogTests' do
+    testing_pods
+end
+
+target 'ui-catalogUITests' do
+    testing_pods
 end
